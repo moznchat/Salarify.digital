@@ -81,9 +81,9 @@
     "topStrip": {
       "messages": {
         "ar": [
-          "???? ??? ????",
-          "??? ??????? ?????? ?????",
-          "???? ???? ?????"
+          "تحكم فكل درهم",
+          "سير فلوسك بسهولة تامة",
+          "بقا متحكم كل شهر"
         ],
         "fr": [
           "Gardez le controle sur chaque dirham",
@@ -99,17 +99,17 @@
     },
     "navLocalized": {
       "home": {
-        "ar": "????????",
+        "ar": "الرئيسية",
         "fr": "Home",
         "en": "Home"
       },
       "download": {
-        "ar": "????? ???????",
+        "ar": "حمّل النموذج",
         "fr": "Telecharger le Modele",
         "en": "Download Template"
       },
       "contact": {
-        "ar": "?????",
+        "ar": "اتصال",
         "fr": "Contact",
         "en": "Contact"
       }
@@ -1272,22 +1272,22 @@
         }
       },
       "title": {
-        "ar": "???? ??? ???? ?????",
+        "ar": "اسحب وشوف التغيير",
         "fr": "GLISSEZ POUR EMPORTER",
         "en": "SWIPE TO TRANSFORM"
       },
       "subtitle": {
-        "ar": "????? ???? ????? ??????? ?? ????? ????? ??????.",
+        "ar": "تدبير واضح وبسيط للمال، مع أهداف ادخار متحققة وميزانية تحت التحكم.",
         "fr": "une gestion claire et simplifiee des finances, avec des objectifs d'epargne atteints et un budget sous controle.",
         "en": "a clear and simple way to manage money, save better, and control your budget."
       },
       "beforeLabel": {
-        "ar": "???",
+        "ar": "قبل",
         "fr": "Avant",
         "en": "Before"
       },
       "afterLabel": {
-        "ar": "???",
+        "ar": "بعد",
         "fr": "Apres",
         "en": "After"
       },
@@ -1309,7 +1309,7 @@
         }
       },
       "heading": {
-        "ar": "?????????? ?????? ?????? ????? ????? ???? ???????? ???????.",
+        "ar": "المستخدمون كيسجلو انخفاض فالتوتر المالي بفضل تتبع دقيق للمصاريف والادخار.",
         "fr": "Les utilisateurs constatent une reduction du stress financier grace a un suivi precis de leurs depenses et economies.",
         "en": "Users report lower financial stress thanks to precise expense tracking."
       },
@@ -1317,7 +1317,7 @@
         {
           "percent": 90,
           "text": {
-            "ar": "???? ???? ???? ??? ??? ???",
+            "ar": "المستخدمون كياخدو تدبير مالي أوضح وأكثر فعالية.",
             "fr": "Les utilisateurs beneficient d'une gestion financiere plus claire et plus efficace.",
             "en": "Users get clearer and more efficient money management."
           }
@@ -1325,7 +1325,7 @@
         {
           "percent": 90,
           "text": {
-            "ar": "????? ???? ????????? ???????",
+            "ar": "الزبناء كيقولو باللي تنظيم الميزانية تحسن بفضل أدوات التحليل التلقائي.",
             "fr": "Les clients rapportent une meilleure organisation du budget grace a des outils d'analyse automatique.",
             "en": "Customers report better budget organization with automatic analysis."
           }
@@ -1333,7 +1333,7 @@
         {
           "percent": 90,
           "text": {
-            "ar": "?????? ????? ???",
+            "ar": "المستخدمون كيتستافدو من رؤية كاملة لمالهم.",
             "fr": "Les utilisateurs profitent d'une visibilite complete sur leurs finances.",
             "en": "Users gain full visibility to make smarter financial decisions."
           }
@@ -1356,7 +1356,7 @@
         }
       },
       "title": {
-        "ar": "Salarify ????? ??????? ?????????? ??????",
+        "ar": "Salarify مقابل القوالب والتطبيقات الأخرى",
         "fr": "Salairy vs Les autres templates et apps",
         "en": "Salairy vs Other Templates and Apps"
       },
@@ -1367,7 +1367,7 @@
       "features": [
         {
           "label": {
-            "ar": "???? ?????? ???????",
+            "ar": "كيفهم عاداتك المالية",
             "fr": "Salairy comprend tes habitudes financieres",
             "en": "Understands your financial habits"
           },
@@ -1376,7 +1376,7 @@
         },
         {
           "label": {
-            "ar": "???? ???? ?????????",
+            "ar": "مصمم باش يكون سهل حتى للمبتدئين",
             "fr": "Concu pour etre simple, meme pour debutants",
             "en": "Simple system even for beginners"
           },
@@ -1385,7 +1385,7 @@
         },
         {
           "label": {
-            "ar": "???? ???????? ?????",
+            "ar": "نتائج تلقائية بلا معادلات معقدة",
             "fr": "Resultats automatiques sans formules complexes",
             "en": "Automatic results without complex formulas"
           },
@@ -1394,7 +1394,7 @@
         },
         {
           "label": {
-            "ar": "??? ??? ?????",
+            "ar": "دفع مرة واحدة",
             "fr": "Paiement unique",
             "en": "One-time payment"
           },
@@ -1419,22 +1419,22 @@
         }
       },
       "title": {
-        "ar": "????? ????????",
+        "ar": "اشترك في رسائلنا",
         "fr": "Abonnez-vous a nos e-mails",
         "en": "Subscribe to our e-mails"
       },
       "placeholder": {
-        "ar": "?????? ??????????",
+        "ar": "البريد الإلكتروني",
         "fr": "Email",
         "en": "Email"
       },
       "button": {
-        "ar": "?????",
+        "ar": "اشترك",
         "fr": "Inscrivez-vous",
         "en": "Subscribe"
       },
       "languageLabel": {
-        "ar": "?????",
+        "ar": "اللغة",
         "fr": "Language",
         "en": "Language"
       }
@@ -1455,12 +1455,12 @@
         }
       },
       "title": {
-        "ar": "???? ?? ????? ??????",
+        "ar": "آراء مغربية",
         "fr": "Avis Marocains",
         "en": "Moroccan Reviews"
       },
       "subtitle": {
-        "ar": "????? ?????? ?? ??? ???? ? Salarify",
+        "ar": "آراء حقيقية من زبناء فالمغرب",
         "fr": "Des retours reels de clients au Maroc",
         "en": "Real feedback from customers in Morocco"
       },
@@ -1470,7 +1470,7 @@
           "city": "Casablanca",
           "image": "/avis/fatima-zahra.jpg",
           "quote": {
-            "ar": "???? ????? ??????? ????? ??? ????.",
+            "ar": "دابا كننظم مصاريفي بلا توتر.",
             "fr": "Je gere mes depenses sans stress maintenant.",
             "en": "I now manage my spending without stress."
           }
@@ -1480,7 +1480,7 @@
           "city": "Rabat",
           "image": "/avis/hafssa.jpg",
           "quote": {
-            "ar": "??? ???? ??? ?????????.",
+            "ar": "سهل بزاف حتى للمبتدئين.",
             "fr": "Tres simple, meme pour debutants.",
             "en": "Very easy, even for beginners."
           }
@@ -1490,7 +1490,7 @@
           "city": "Marrakech",
           "image": "/avis/Mohammed.jfif",
           "quote": {
-            "ar": "?????? ????????? ??? ????? ????.",
+            "ar": "وضوح الميزانية بدّل ليا كلشي.",
             "fr": "La clarte du budget a tout change pour moi.",
             "en": "Budget clarity changed everything for me."
           }
@@ -1500,7 +1500,7 @@
           "city": "Agadir",
           "image": "/avis/salma.jpg",
           "quote": {
-            "ar": "???? 49 ???? ??????.",
+            "ar": "أحسن شراء بـ49 درهم.",
             "fr": "Le meilleur achat a 49 DH.",
             "en": "Best 49 DH purchase I made."
           }
@@ -1510,7 +1510,7 @@
           "city": "Tanger",
           "image": "/avis/salma-dr.jpg",
           "quote": {
-            "ar": "?????? ????????? ?? ?????? ??????.",
+            "ar": "كنتبع ميزانيتي من الهاتف بسهولة.",
             "fr": "Je suis mon budget sur mobile tres facilement.",
             "en": "I track my budget on mobile very easily."
           }
