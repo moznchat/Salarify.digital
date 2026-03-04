@@ -1,0 +1,25 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Poppins, Tajawal, "Segoe UI", sans-serif;
+}
+
+[dir="rtl"] {
+  font-family: Tajawal, Poppins, "Segoe UI", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+@layer utilities {
+  .glow-soft {
+    box-shadow: 0 0 40px rgba(34, 197, 94, 0.25);
+  }
+}

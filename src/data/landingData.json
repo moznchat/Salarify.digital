@@ -1,0 +1,1560 @@
+{
+  "theme": {
+    "mode": "minimal"
+  },
+  "brand": {
+    "name": "Salarify",
+    "description": "Template simple pour gérer ton budget mensuel sans stress.",
+    "whatsappNumber": "212600000000",
+    "whatsappBaseUrl": "https://wa.me/212600000000",
+    "email": "contact@salarify.ma",
+    "copyright": "Salarify. Tous droits reserves.",
+    "nav": {
+      "modes": {
+        "minimal": {
+          "links": [
+            {
+              "label": "Home",
+              "target": "#store"
+            },
+            {
+              "label": "Telecharger le Modele",
+              "target": "#store"
+            },
+            {
+              "label": "Contact",
+              "target": "#footer"
+            }
+          ]
+        },
+        "dark": {
+          "links": [
+            {
+              "label": "Home",
+              "target": "#store"
+            },
+            {
+              "label": "Telecharger le Modele",
+              "target": "#store"
+            },
+            {
+              "label": "Contact",
+              "target": "#footer"
+            }
+          ]
+        },
+        "morocco-psychology": {
+          "links": [
+            {
+              "label": "Home",
+              "target": "#store"
+            },
+            {
+              "label": "Telecharger le Modele",
+              "target": "#store"
+            },
+            {
+              "label": "Contact",
+              "target": "#footer"
+            }
+          ]
+        },
+        "facebook-ads": {
+          "links": [
+            {
+              "label": "Home",
+              "target": "#store"
+            },
+            {
+              "label": "Telecharger le Modele",
+              "target": "#store"
+            },
+            {
+              "label": "Contact",
+              "target": "#footer"
+            }
+          ]
+        }
+      }
+    },
+    "logo": "/icone/logo.png",
+    "topStrip": {
+      "messages": {
+        "ar": [
+          "???? ??? ????",
+          "??? ??????? ?????? ?????",
+          "???? ???? ?????"
+        ],
+        "fr": [
+          "Gardez le controle sur chaque dirham",
+          "Maitrisez vos finances en toute simplicite",
+          "Gardez le controle sur chaque dirham"
+        ],
+        "en": [
+          "Keep control of every dirham",
+          "Master your finances with simplicity",
+          "Stay in control every month"
+        ]
+      }
+    },
+    "navLocalized": {
+      "home": {
+        "ar": "????????",
+        "fr": "Home",
+        "en": "Home"
+      },
+      "download": {
+        "ar": "????? ???????",
+        "fr": "Telecharger le Modele",
+        "en": "Download Template"
+      },
+      "contact": {
+        "ar": "?????",
+        "fr": "Contact",
+        "en": "Contact"
+      }
+    }
+  },
+  "product": {
+    "name": "Budget Template pour Excel & Google Sheets",
+    "currency": "DH",
+    "price": 49,
+    "oldPrice": 100,
+    "discountBadge": "-51%",
+    "delivery": "Livraison immediate apres paiement",
+    "paymentBadges": [
+      "Paiement unique",
+      "Sans abonnement",
+      "Acces a vie"
+    ],
+    "gallery": [
+      {
+        "title": "Dashboard Mensuel",
+        "description": "Vue globale revenus, depenses et epargne",
+        "image": "/image/Produit1.avif",
+        "startColor": "#dcfce7",
+        "endColor": "#bbf7d0"
+      },
+      {
+        "title": "Suivi Quotidien",
+        "description": "Entree rapide de chaque depense",
+        "image": "/image/Produit2.webp",
+        "startColor": "#dbeafe",
+        "endColor": "#bfdbfe"
+      },
+      {
+        "title": "Objectifs Budget",
+        "description": "Comparaison objectif vs reel automatiquement",
+        "image": "/image/Produit3.avif",
+        "startColor": "#fef3c7",
+        "endColor": "#fde68a"
+      },
+      {
+        "title": "Vision Mensuelle",
+        "description": "Controle global de tous tes postes de depenses",
+        "image": "/image/Produit4.avif",
+        "startColor": "#ede9fe",
+        "endColor": "#ddd6fe"
+      },
+      {
+        "title": "Alertes Budget",
+        "description": "Repere vite les categories qui depassent le plan",
+        "image": "/image/Produit5.avif",
+        "startColor": "#fee2e2",
+        "endColor": "#fecaca"
+      },
+      {
+        "title": "Projection Epargne",
+        "description": "Suivi de progression pour tes objectifs financiers",
+        "image": "/image/Produit6.avif",
+        "startColor": "#cffafe",
+        "endColor": "#a5f3fc"
+      },
+      {
+        "title": "Suivi Mobile",
+        "description": "Consulte et ajuste ton budget depuis ton telephone",
+        "image": "/image/Produit7.webp",
+        "startColor": "#fef9c3",
+        "endColor": "#fde68a"
+      },
+      {
+        "title": "Controle Depenses",
+        "description": "Visualise instantanement ou part chaque dirham",
+        "image": "/image/Produit8.webp",
+        "startColor": "#dcfce7",
+        "endColor": "#86efac"
+      }
+    ]
+  },
+  "store": {
+    "template": {
+      "id": "salarify-template-main",
+      "title": {
+        "ar": "مخطط الميزانية TDAH - Google Sheets",
+        "fr": "Planificateur de Budget TDAH - Google Sheets",
+        "en": "TDAH Budget Planner - Google Sheets"
+      },
+      "subtitle": {
+        "ar": "اسبوعي | كل اسبوعين | شهري | حسب الراتب",
+        "fr": "Hebdomadaire | Bihebdomadaire | Mensuel | Par salaire",
+        "en": "Weekly | Biweekly | Monthly | By paycheck"
+      },
+      "price": 49,
+      "oldPrice": 100,
+      "discountPercent": 51,
+      "discountLabel": {
+        "ar": "تخفيض جديد",
+        "fr": "Nouvelle reduction",
+        "en": "New discount"
+      },
+      "urgency": {
+        "ar": "العرض غادي يسالي قريبا",
+        "fr": "La promo se termine bientot",
+        "en": "Promo ending soon"
+      },
+      "taxLabel": {
+        "ar": "شامل الضرائب",
+        "fr": "TVA incluse",
+        "en": "Tax included"
+      },
+      "vendor": {
+        "name": "Salarify",
+        "rating": "5.0",
+        "reviews": "521",
+        "badge": {
+          "ar": "بائع موثوق",
+          "fr": "Top vendeur",
+          "en": "Top seller"
+        },
+        "response": {
+          "ar": "يرد بسرعة على الرسائل",
+          "fr": "Repond rapidement aux messages",
+          "en": "Quick response to messages"
+        }
+      },
+      "cta": {
+        "ar": "اطلب عبر واتساب",
+        "fr": "Commander via WhatsApp",
+        "en": "Order on WhatsApp"
+      },
+      "whatsappMessage": {
+        "ar": "سلام، بغيت نطلب مخطط الميزانية Salarify.",
+        "fr": "Salam, je veux commander le template budget Salarify.",
+        "en": "Hi, I want to order the Salarify budget template."
+      },
+      "media": [
+        {
+          "image": "/image/Produit1.avif",
+          "alt": {
+            "ar": "عرض 1",
+            "fr": "Apercu 1",
+            "en": "Preview 1"
+          }
+        },
+        {
+          "image": "/image/Produit2.webp",
+          "alt": {
+            "ar": "عرض 2",
+            "fr": "Apercu 2",
+            "en": "Preview 2"
+          }
+        },
+        {
+          "image": "/image/Produit3.avif",
+          "alt": {
+            "ar": "عرض 3",
+            "fr": "Apercu 3",
+            "en": "Preview 3"
+          }
+        },
+        {
+          "image": "/image/Produit4.avif",
+          "alt": {
+            "ar": "عرض 4",
+            "fr": "Apercu 4",
+            "en": "Preview 4"
+          }
+        },
+        {
+          "image": "/image/Produit5.avif",
+          "alt": {
+            "ar": "عرض 5",
+            "fr": "Apercu 5",
+            "en": "Preview 5"
+          }
+        },
+        {
+          "image": "/image/Produit6.avif",
+          "alt": {
+            "ar": "عرض 6",
+            "fr": "Apercu 6",
+            "en": "Preview 6"
+          }
+        },
+        {
+          "image": "/image/Produit7.webp",
+          "alt": {
+            "ar": "عرض 7",
+            "fr": "Apercu 7",
+            "en": "Preview 7"
+          }
+        },
+        {
+          "image": "/image/Produit8.webp",
+          "alt": {
+            "ar": "عرض 8",
+            "fr": "Apercu 8",
+            "en": "Preview 8"
+          }
+        }
+      ],
+      "bullets": [
+        {
+          "icon": "check",
+          "text": {
+            "ar": "مناسب للمبتدئين",
+            "fr": "Ideal pour debutants",
+            "en": "Beginner friendly"
+          }
+        },
+        {
+          "icon": "mobile",
+          "text": {
+            "ar": "خدام على الهاتف والكمبيوتر",
+            "fr": "Fonctionne sur mobile et PC",
+            "en": "Works on phone and desktop"
+          }
+        },
+        {
+          "icon": "wallet",
+          "text": {
+            "ar": "دفع مرة واحدة فقط",
+            "fr": "Paiement unique",
+            "en": "One-time payment"
+          }
+        }
+      ]
+    }
+  },
+  "sections": {
+    "hero": {
+      "modes": {
+        "minimal": {
+          "id": "hero",
+          "eyebrow": "Template finance personnelle",
+          "headline": "Controle ton budget en 10 minutes par semaine",
+          "subheadline": "Salarify transforme Excel et Google Sheets en systeme simple pour suivre tes depenses et proteger ton salaire.",
+          "benefits": [
+            "Configuration rapide, sans formules complexes",
+            "Compatible mobile et ordinateur",
+            "Visualise ou va chaque dirham"
+          ],
+          "primaryCta": "Je veux mon template",
+          "secondaryCta": "Voir ce que je recois",
+          "whatsappMessage": "Salam, je veux commander le template budget Salarify."
+        },
+        "dark": {
+          "id": "hero",
+          "eyebrow": "Fintech budget system",
+          "headline": "Un cockpit budget moderne pour piloter ton argent",
+          "subheadline": "Passe d'un fichier vide a une vision claire de ton cashflow avec un template propre, fluide et pret a l'emploi.",
+          "benefits": [
+            "Interface premium dans Excel et Google Sheets",
+            "Score d'epargne visible en un coup d'oeil",
+            "Suivi categories + alertes budget"
+          ],
+          "primaryCta": "Activer Salarify",
+          "secondaryCta": "Voir les ecrans",
+          "whatsappMessage": "Salam, je veux activer Salarify en version dark."
+        },
+        "morocco-psychology": {
+          "id": "hero",
+          "eyebrow": "Offre limitee pour le Maroc",
+          "headline": "كل شهر نفس السؤال: فين مشاو الفلوس؟",
+          "subheadline": "اذا وصلتي لاخر الشهر وانت مزال ما فاهمش المصروف، Salarify يعطيك نظام واضح باش توقف ضياع الفلوس وتحمي دارك.",
+          "benefits": [
+            "تعرف بالضبط شحال خرجتي وفين",
+            "تحس براسك متحكم فالمصاريف",
+            "تنقص الستريس ديال اخر الشهر",
+            "تخطيط واضح للمسؤوليات العائلية"
+          ],
+          "scarcityBadge": "العرض الحالي محدود",
+          "primaryCta": "بغيت نتحكم ففلوسي دابا",
+          "secondaryCta": "وريني كيف خدام",
+          "whatsappMessage": "سلام، بغيت نشري Salarify باش نضبط الميزانية ديالي."
+        },
+        "facebook-ads": {
+          "id": "hero",
+          "eyebrow": "Promo Facebook",
+          "headline": "Template Budget جاهز: 49 DH بدل 100 DH",
+          "subheadline": "حمل، طبق، وابدأ تتبع مصروفك اليوم. بدون اشتراك.",
+          "benefits": [
+            "جاهز مباشرة بعد الدفع",
+            "خدام على Excel و Google Sheets",
+            "مثالي للمبتدئين",
+            "دفع مرة واحدة"
+          ],
+          "primaryCta": "اطلبه عبر WhatsApp",
+          "secondaryCta": "شوف المزايا بسرعة",
+          "whatsappMessage": "سلام، جاي من اعلان Facebook وبغيت ناخد العرض 49 DH."
+        }
+      }
+    },
+    "store": {
+      "modes": {
+        "minimal": {
+          "id": "store",
+          "title": {
+            "ar": "نموذج المتجر",
+            "fr": "Template Store",
+            "en": "Template Store"
+          },
+          "homeBadge": {
+            "ar": "الرئيسية",
+            "fr": "Accueil",
+            "en": "Home"
+          }
+        },
+        "dark": {
+          "id": "store",
+          "title": {
+            "ar": "نموذج المتجر",
+            "fr": "Template Store",
+            "en": "Template Store"
+          },
+          "homeBadge": {
+            "ar": "الرئيسية",
+            "fr": "Accueil",
+            "en": "Home"
+          }
+        },
+        "morocco-psychology": {
+          "id": "store",
+          "title": {
+            "ar": "نموذج المتجر",
+            "fr": "Template Store",
+            "en": "Template Store"
+          },
+          "homeBadge": {
+            "ar": "الرئيسية",
+            "fr": "Accueil",
+            "en": "Home"
+          }
+        },
+        "facebook-ads": {
+          "id": "store",
+          "title": {
+            "ar": "نموذج المتجر",
+            "fr": "Template Store",
+            "en": "Template Store"
+          },
+          "homeBadge": {
+            "ar": "الرئيسية",
+            "fr": "Accueil",
+            "en": "Home"
+          }
+        }
+      }
+    },
+    "howItWorks": {
+      "modes": {
+        "minimal": {
+          "id": "how-it-works",
+          "title": "Comment ca marche",
+          "steps": [
+            {
+              "title": "Recu instantane",
+              "description": "Tu recois le template juste apres confirmation."
+            },
+            {
+              "title": "Copie ton budget",
+              "description": "Tu remplis tes revenus et categories en quelques minutes."
+            },
+            {
+              "title": "Suivi hebdomadaire",
+              "description": "Tu verifies tes chiffres et ajustes avant la fin du mois."
+            }
+          ]
+        },
+        "dark": {
+          "id": "how-it-works",
+          "title": "Processus rapide",
+          "steps": [
+            {
+              "title": "1. Acces",
+              "description": "Lien de telechargement envoye immediatement."
+            },
+            {
+              "title": "2. Setup",
+              "description": "Personnalise tes categories en 5 minutes."
+            },
+            {
+              "title": "3. Pilotage",
+              "description": "Observe tendances et decisions dans ton dashboard."
+            }
+          ]
+        },
+        "morocco-psychology": {
+          "id": "how-it-works",
+          "title": "3 خطوات باش تبدا",
+          "steps": [
+            {
+              "title": "توصل بالملف",
+              "description": "منين تكمل الطلب، كيوصلك الملف مباشرة."
+            },
+            {
+              "title": "تعمر المعلومات",
+              "description": "دخل المدخول والمصاريف ديالك بطريقة سهلة."
+            },
+            {
+              "title": "ترتاح نفسيا",
+              "description": "كل اسبوع كتشوف الوضعية ديالك بوضوح."
+            }
+          ]
+        },
+        "facebook-ads": {
+          "id": "how-it-works",
+          "title": "كيفاش تستافد بسرعة",
+          "steps": [
+            {
+              "title": "اطلب دابا",
+              "description": "رسالة WhatsApp وتأكيد بسيط."
+            },
+            {
+              "title": "توصل فورا",
+              "description": "تحميل مباشر مع شرح البداية."
+            },
+            {
+              "title": "طبق نفس اليوم",
+              "description": "دخل المصاريف ديالك وبدا المتابعة."
+            }
+          ]
+        }
+      }
+    },
+    "whyChoose": {
+      "modes": {
+        "minimal": {
+          "id": "benefits",
+          "title": "Pourquoi choisir Salarify",
+          "cards": [
+            {
+              "icon": "shield",
+              "title": "Simple",
+              "description": "Structure claire pour debutants."
+            },
+            {
+              "icon": "chart",
+              "title": "Visuel",
+              "description": "Graphiques lisibles en temps reel."
+            },
+            {
+              "icon": "wallet",
+              "title": "Economique",
+              "description": "Paiement unique seulement."
+            },
+            {
+              "icon": "mobile",
+              "title": "Flexible",
+              "description": "Utilisation sur mobile et PC."
+            }
+          ]
+        },
+        "dark": {
+          "id": "benefits",
+          "title": "Pourquoi les profils organises l'adoptent",
+          "cards": [
+            {
+              "icon": "spark",
+              "title": "Design pro",
+              "description": "Experience propre et orientee action."
+            },
+            {
+              "icon": "chart",
+              "title": "Decision rapide",
+              "description": "Tu vois les ecarts instantanement."
+            },
+            {
+              "icon": "shield",
+              "title": "Sans friction",
+              "description": "Pas d'abonnement, pas de courbe lourde."
+            },
+            {
+              "icon": "clock",
+              "title": "Gain de temps",
+              "description": "Moins de 10 minutes de suivi hebdo."
+            }
+          ]
+        },
+        "morocco-psychology": {
+          "id": "benefits",
+          "title": "علاش Salarify كيقلب الموازين",
+          "cards": [
+            {
+              "icon": "alert",
+              "title": "كتحبس ضياع الفلوس",
+              "description": "كل مصروف كيبان قدامك بلا لف."
+            },
+            {
+              "icon": "family",
+              "title": "راحة للعائلة",
+              "description": "كتخطط للمصاريف الضرورية قبل ما يتزاد الضغط."
+            },
+            {
+              "icon": "shield",
+              "title": "بالامان النفسي",
+              "description": "كتولي عارف الوضعية المالية ديالك فاي لحظة."
+            },
+            {
+              "icon": "wallet",
+              "title": "ثمن مناسب",
+              "description": "49 DH مرة وحدة، والولوج ديما."
+            }
+          ]
+        },
+        "facebook-ads": {
+          "id": "benefits",
+          "title": "شنو غادي تاخد",
+          "cards": [
+            {
+              "icon": "check",
+              "title": "Template جاهز",
+              "description": "خدمة مباشرة بدون اعداد طويل."
+            },
+            {
+              "icon": "mobile",
+              "title": "خدام فالتلفون",
+              "description": "تقدر تراجع الميزانية من اي مكان."
+            },
+            {
+              "icon": "wallet",
+              "title": "بدون اشتراك",
+              "description": "مرة واحدة وخلاص."
+            },
+            {
+              "icon": "chart",
+              "title": "نتائج واضحة",
+              "description": "تعرف واش كتصرف بزاف او لا."
+            }
+          ]
+        }
+      }
+    },
+    "beforeAfter": {
+      "modes": {
+        "minimal": {
+          "id": "before-after",
+          "title": "Avant / Apres Salarify",
+          "before": {
+            "title": "Avant",
+            "points": [
+              "Depenses non suivies",
+              "Stress en fin de mois",
+              "Aucune vision globale"
+            ]
+          },
+          "after": {
+            "title": "Apres",
+            "points": [
+              "Budget clair chaque semaine",
+              "Decision d'achat plus calme",
+              "Objectifs d'epargne suivis"
+            ]
+          }
+        },
+        "dark": {
+          "id": "before-after",
+          "title": "Du chaos a un systeme",
+          "before": {
+            "title": "Chaos",
+            "points": [
+              "Transactions eparpillees",
+              "Aucun tableau coherent",
+              "Mauvaise anticipation"
+            ]
+          },
+          "after": {
+            "title": "Control",
+            "points": [
+              "Flux classe par categorie",
+              "Vue cashflow en direct",
+              "Plan mensuel solide"
+            ]
+          }
+        },
+        "morocco-psychology": {
+          "id": "before-after",
+          "title": "من التوتر للتحكم",
+          "before": {
+            "title": "قبل",
+            "points": [
+              "اخر الشهر كيكون صعيب",
+              "كتسال راسك فين مشاو الفلوس",
+              "الالتزامات العائلية كتضغط عليك"
+            ]
+          },
+          "after": {
+            "title": "من بعد",
+            "points": [
+              "كتشوف كل درهم فين مشى",
+              "كتحط خطة واضحة للشهر",
+              "كتحس براحة واستقرار مالي"
+            ]
+          }
+        },
+        "facebook-ads": {
+          "id": "before-after",
+          "title": "الفرق واضح",
+          "before": {
+            "title": "دابا",
+            "points": [
+              "مصروف عشوائي",
+              "توتر فالنهاية",
+              "لا متابعة لا نتائج"
+            ]
+          },
+          "after": {
+            "title": "مع Salarify",
+            "points": [
+              "متابعة يومية بسيطة",
+              "تحكم فالمصاريف",
+              "وضوح قبل نهاية الشهر"
+            ]
+          }
+        }
+      }
+    },
+    "socialProof": {
+      "modes": {
+        "minimal": {
+          "id": "social-proof",
+          "title": "Preuves de resultats",
+          "circle": {
+            "value": 90,
+            "label": "des utilisateurs se sentent plus en controle"
+          },
+          "stats": [
+            {
+              "value": "+1,200",
+              "label": "Telechargements au Maroc"
+            },
+            {
+              "value": "72%",
+              "label": "reduisent les depenses impulsives"
+            },
+            {
+              "value": "4.9/5",
+              "label": "note satisfaction moyenne"
+            }
+          ],
+          "testimonials": [
+            {
+              "name": "Salma, Casablanca",
+              "quote": "Simple et direct. J'ai enfin une vue claire de mon mois."
+            },
+            {
+              "name": "Yassine, Rabat",
+              "quote": "Je pensais perdre du temps, au final je gagne de l'argent."
+            },
+            {
+              "name": "Ilham, Agadir",
+              "quote": "Le suivi m'a aide a stabiliser mon budget familial."
+            }
+          ]
+        },
+        "dark": {
+          "id": "social-proof",
+          "title": "Data qui rassure",
+          "circle": {
+            "value": 90,
+            "label": "des clients gardent Salarify apres 3 mois"
+          },
+          "stats": [
+            {
+              "value": "11 min",
+              "label": "temps moyen de suivi hebdomadaire"
+            },
+            {
+              "value": "67%",
+              "label": "moins de depenses non planifiees"
+            },
+            {
+              "value": "4.8/5",
+              "label": "evaluation globale"
+            }
+          ],
+          "testimonials": [
+            {
+              "name": "Omar, Tanger",
+              "quote": "Le dashboard est propre, je prends des decisions plus vite."
+            },
+            {
+              "name": "Nadia, Marrakech",
+              "quote": "Zero confusion, meme sur mobile."
+            },
+            {
+              "name": "Hicham, Kenitra",
+              "quote": "Un petit prix pour un grand niveau de clarte."
+            }
+          ]
+        },
+        "morocco-psychology": {
+          "id": "social-proof",
+          "title": "ناس بحالك دارو التغيير",
+          "circle": {
+            "value": 90,
+            "label": "قالو نقص عليهم توتر اخر الشهر"
+          },
+          "stats": [
+            {
+              "value": "+1,200",
+              "label": "مستخدم فالمغرب"
+            },
+            {
+              "value": "78%",
+              "label": "ولاو كيتحكمو فالمصاريف"
+            },
+            {
+              "value": "4.9/5",
+              "label": "تقييمات ايجابية"
+            }
+          ],
+          "testimonials": [
+            {
+              "name": "Siham, Fes",
+              "quote": "اول مرة نحس انني عارفة فين كيمشي الراتب ديالي."
+            },
+            {
+              "name": "Mehdi, Oujda",
+              "quote": "وليت كانخطط لمصاريف الدار بلا خوف."
+            },
+            {
+              "name": "Khadija, Sale",
+              "quote": "49 درهم كانت احسن خطوة درتها هاد العام."
+            }
+          ]
+        },
+        "facebook-ads": {
+          "id": "social-proof",
+          "title": "نتائج كتهضر",
+          "circle": {
+            "value": 90,
+            "label": "حسنو التحكم فالميزانية"
+          },
+          "stats": [
+            {
+              "value": "+300",
+              "label": "طلبات هاد الشهر"
+            },
+            {
+              "value": "-51%",
+              "label": "تخفيض العرض الحالي"
+            },
+            {
+              "value": "4.9/5",
+              "label": "رضا المشترين"
+            }
+          ],
+          "testimonials": [
+            {
+              "name": "Imane",
+              "quote": "طلبتو من الاعلان وتوصلت بيه فنفس النهار."
+            },
+            {
+              "name": "Ayoub",
+              "quote": "واضح وسهل، حتى للمبتدئ."
+            },
+            {
+              "name": "Sara",
+              "quote": "كنت مترددة، دابا الميزانية ديالي منظمة."
+            }
+          ]
+        }
+      }
+    },
+    "comparison": {
+      "modes": {
+        "minimal": {
+          "id": "comparison",
+          "title": "Salarify vs autres solutions",
+          "headers": {
+            "feature": "Critere",
+            "salarify": "Salarify",
+            "others": "Autres"
+          },
+          "rows": [
+            {
+              "feature": "Beginner friendly",
+              "salarify": true,
+              "others": false
+            },
+            {
+              "feature": "No subscription",
+              "salarify": true,
+              "others": false
+            },
+            {
+              "feature": "Works on phone",
+              "salarify": true,
+              "others": true
+            },
+            {
+              "feature": "No complex formulas",
+              "salarify": true,
+              "others": false
+            },
+            {
+              "feature": "One-time payment",
+              "salarify": true,
+              "others": false
+            }
+          ]
+        },
+        "dark": {
+          "id": "comparison",
+          "title": "Comparatif rapide",
+          "headers": {
+            "feature": "Point",
+            "salarify": "Salarify",
+            "others": "Outils classiques"
+          },
+          "rows": [
+            {
+              "feature": "Beginner friendly",
+              "salarify": true,
+              "others": false
+            },
+            {
+              "feature": "No subscription",
+              "salarify": true,
+              "others": false
+            },
+            {
+              "feature": "Works on phone",
+              "salarify": true,
+              "others": true
+            },
+            {
+              "feature": "No complex formulas",
+              "salarify": true,
+              "others": false
+            },
+            {
+              "feature": "One-time payment",
+              "salarify": true,
+              "others": false
+            }
+          ]
+        },
+        "morocco-psychology": {
+          "id": "comparison",
+          "title": "Salarify ضد البدائل",
+          "headers": {
+            "feature": "الميزة",
+            "salarify": "Salarify",
+            "others": "بدائل اخرى"
+          },
+          "rows": [
+            {
+              "feature": "Beginner friendly",
+              "salarify": true,
+              "others": false
+            },
+            {
+              "feature": "No subscription",
+              "salarify": true,
+              "others": false
+            },
+            {
+              "feature": "Works on phone",
+              "salarify": true,
+              "others": true
+            },
+            {
+              "feature": "No complex formulas",
+              "salarify": true,
+              "others": false
+            },
+            {
+              "feature": "One-time payment",
+              "salarify": true,
+              "others": false
+            }
+          ]
+        },
+        "facebook-ads": {
+          "id": "comparison",
+          "title": "قبل ما تقرر",
+          "headers": {
+            "feature": "النقطة",
+            "salarify": "Salarify",
+            "others": "غيره"
+          },
+          "rows": [
+            {
+              "feature": "Beginner friendly",
+              "salarify": true,
+              "others": false
+            },
+            {
+              "feature": "No subscription",
+              "salarify": true,
+              "others": false
+            },
+            {
+              "feature": "Works on phone",
+              "salarify": true,
+              "others": true
+            },
+            {
+              "feature": "No complex formulas",
+              "salarify": true,
+              "others": false
+            },
+            {
+              "feature": "One-time payment",
+              "salarify": true,
+              "others": false
+            }
+          ]
+        }
+      }
+    },
+    "faq": {
+      "modes": {
+        "minimal": {
+          "id": "faq",
+          "title": "Questions frequentes",
+          "items": [
+            {
+              "q": "Easy to use?",
+              "a": "Oui, la structure est faite pour les debutants."
+            },
+            {
+              "q": "Need Excel skills?",
+              "a": "Non, les formules sont deja configurees."
+            },
+            {
+              "q": "Lifetime access?",
+              "a": "Oui, acces a vie apres achat."
+            },
+            {
+              "q": "How do I receive it?",
+              "a": "Tu recois le lien de telechargement immediatement."
+            },
+            {
+              "q": "Refund policy?",
+              "a": "Si le produit n'est pas livre, remboursement integral."
+            }
+          ]
+        },
+        "dark": {
+          "id": "faq",
+          "title": "FAQ",
+          "items": [
+            {
+              "q": "Easy to use?",
+              "a": "Oui. Interface guidee et categories deja pretes."
+            },
+            {
+              "q": "Need Excel skills?",
+              "a": "Non. Tu remplis seulement tes chiffres."
+            },
+            {
+              "q": "Lifetime access?",
+              "a": "Oui, acces permanent apres paiement unique."
+            },
+            {
+              "q": "How do I receive it?",
+              "a": "Lien de telechargement envoye juste apres achat."
+            },
+            {
+              "q": "Refund policy?",
+              "a": "Remboursement possible si aucun acces n'est envoye."
+            }
+          ]
+        },
+        "morocco-psychology": {
+          "id": "faq",
+          "title": "الاسئلة اللي كتتعاود بزاف",
+          "items": [
+            {
+              "q": "Easy to use?",
+              "a": "ايه، ساهل بزاف حتى للي عمرهم خدمو بجدول."
+            },
+            {
+              "q": "Need Excel skills?",
+              "a": "لا، كلشي واجد وانت غير دخل المعلومات."
+            },
+            {
+              "q": "Lifetime access?",
+              "a": "نعم، ولوج مدى الحياة بلا اشتراك."
+            },
+            {
+              "q": "How do I receive it?",
+              "a": "منين تكمل الطلب، كيوصلك الرابط مباشرة."
+            },
+            {
+              "q": "Refund policy?",
+              "a": "اذا ما توصلكش الملف، كاين استرجاع كامل."
+            }
+          ]
+        },
+        "facebook-ads": {
+          "id": "faq",
+          "title": "FAQ سريع",
+          "items": [
+            {
+              "q": "Easy to use?",
+              "a": "نعم، معمول للمبتدئين."
+            },
+            {
+              "q": "Need Excel skills?",
+              "a": "لا، غير دخل الارقام ديالك."
+            },
+            {
+              "q": "Lifetime access?",
+              "a": "ايوه، دخول دائم."
+            },
+            {
+              "q": "How do I receive it?",
+              "a": "رابط مباشر بعد الشراء."
+            },
+            {
+              "q": "Refund policy?",
+              "a": "في حالة عدم التوصل، كاين استرجاع."
+            }
+          ]
+        }
+      }
+    },
+    "finalCTA": {
+      "modes": {
+        "minimal": {
+          "id": "final-cta",
+          "headline": "Prends le controle de ton argent aujourd'hui",
+          "subheadline": "Commence avec Salarify et construis une routine budget durable.",
+          "button": "Commander maintenant",
+          "urgency": "Offre promotionnelle active pour une periode limitee.",
+          "whatsappMessage": "Salam, je suis pret a acheter Salarify maintenant."
+        },
+        "dark": {
+          "id": "final-cta",
+          "headline": "Passe en mode controle financier",
+          "subheadline": "Active ton template et prends de meilleures decisions des cette semaine.",
+          "button": "Debloquer mon acces",
+          "urgency": "Prix promo 49 DH pour un temps limite.",
+          "whatsappMessage": "Salam, je veux debloquer l'acces Salarify maintenant."
+        },
+        "morocco-psychology": {
+          "id": "final-cta",
+          "headline": "ماتخليش شهر جديد يبدا بنفس الفوضى",
+          "subheadline": "خد القرار اليوم وخلي فلوسك تخدمك، ماشي تضيع منك.",
+          "button": "بغيت العرض دابا",
+          "urgency": "عدد النسخ المخفضة محدود هاد الاسبوع.",
+          "whatsappMessage": "سلام، بغيت نأكد الطلب ديال Salarify بثمن 49 DH."
+        },
+        "facebook-ads": {
+          "id": "final-cta",
+          "headline": "49 DH اليوم فقط",
+          "subheadline": "اضغط واطلب عبر WhatsApp قبل ما يسالي التخفيض.",
+          "button": "اطلب العرض",
+          "urgency": "التخفيض -51% ممكن يتوقف في اي وقت.",
+          "whatsappMessage": "سلام، بغيت نستافد من عرض 49 DH دابا."
+        }
+      }
+    },
+    "footer": {
+      "modes": {
+        "minimal": {
+          "newsletterTitle": "Recevoir les conseils budget",
+          "newsletterPlaceholder": "Ton email",
+          "newsletterButton": "S'inscrire",
+          "social": [
+            {
+              "label": "Instagram",
+              "url": "https://instagram.com",
+              "icon": "instagram"
+            },
+            {
+              "label": "Facebook",
+              "url": "https://facebook.com",
+              "icon": "facebook"
+            },
+            {
+              "label": "TikTok",
+              "url": "https://tiktok.com",
+              "icon": "tiktok"
+            }
+          ]
+        },
+        "dark": {
+          "newsletterTitle": "Insights budget chaque semaine",
+          "newsletterPlaceholder": "Adresse email",
+          "newsletterButton": "Recevoir",
+          "social": [
+            {
+              "label": "Instagram",
+              "url": "https://instagram.com",
+              "icon": "instagram"
+            },
+            {
+              "label": "Facebook",
+              "url": "https://facebook.com",
+              "icon": "facebook"
+            },
+            {
+              "label": "TikTok",
+              "url": "https://tiktok.com",
+              "icon": "tiktok"
+            }
+          ]
+        },
+        "morocco-psychology": {
+          "newsletterTitle": "خد نصائح مالية عملية كل اسبوع",
+          "newsletterPlaceholder": "البريد الالكتروني",
+          "newsletterButton": "بغيت النصائح",
+          "social": [
+            {
+              "label": "Instagram",
+              "url": "https://instagram.com",
+              "icon": "instagram"
+            },
+            {
+              "label": "Facebook",
+              "url": "https://facebook.com",
+              "icon": "facebook"
+            },
+            {
+              "label": "TikTok",
+              "url": "https://tiktok.com",
+              "icon": "tiktok"
+            }
+          ]
+        },
+        "facebook-ads": {
+          "newsletterTitle": "توصل باي تحديثات وعروض جديدة",
+          "newsletterPlaceholder": "Email",
+          "newsletterButton": "سجل",
+          "social": [
+            {
+              "label": "Instagram",
+              "url": "https://instagram.com",
+              "icon": "instagram"
+            },
+            {
+              "label": "Facebook",
+              "url": "https://facebook.com",
+              "icon": "facebook"
+            },
+            {
+              "label": "TikTok",
+              "url": "https://tiktok.com",
+              "icon": "tiktok"
+            }
+          ]
+        }
+      }
+    },
+    "showcase": {
+      "modes": {
+        "minimal": {
+          "id": "showcase"
+        },
+        "dark": {
+          "id": "showcase"
+        },
+        "morocco-psychology": {
+          "id": "showcase"
+        },
+        "facebook-ads": {
+          "id": "showcase"
+        }
+      },
+      "title": {
+        "ar": "???? ??? ???? ?????",
+        "fr": "GLISSEZ POUR EMPORTER",
+        "en": "SWIPE TO TRANSFORM"
+      },
+      "subtitle": {
+        "ar": "????? ???? ????? ??????? ?? ????? ????? ??????.",
+        "fr": "une gestion claire et simplifiee des finances, avec des objectifs d'epargne atteints et un budget sous controle.",
+        "en": "a clear and simple way to manage money, save better, and control your budget."
+      },
+      "beforeLabel": {
+        "ar": "???",
+        "fr": "Avant",
+        "en": "Before"
+      },
+      "afterLabel": {
+        "ar": "???",
+        "fr": "Apres",
+        "en": "After"
+      },
+      "image": "/image/videoframe_3469.png"
+    },
+    "stressStats": {
+      "modes": {
+        "minimal": {
+          "id": "stress-stats"
+        },
+        "dark": {
+          "id": "stress-stats"
+        },
+        "morocco-psychology": {
+          "id": "stress-stats"
+        },
+        "facebook-ads": {
+          "id": "stress-stats"
+        }
+      },
+      "heading": {
+        "ar": "?????????? ?????? ?????? ????? ????? ???? ???????? ???????.",
+        "fr": "Les utilisateurs constatent une reduction du stress financier grace a un suivi precis de leurs depenses et economies.",
+        "en": "Users report lower financial stress thanks to precise expense tracking."
+      },
+      "rows": [
+        {
+          "percent": 90,
+          "text": {
+            "ar": "???? ???? ???? ??? ??? ???",
+            "fr": "Les utilisateurs beneficient d'une gestion financiere plus claire et plus efficace.",
+            "en": "Users get clearer and more efficient money management."
+          }
+        },
+        {
+          "percent": 90,
+          "text": {
+            "ar": "????? ???? ????????? ???????",
+            "fr": "Les clients rapportent une meilleure organisation du budget grace a des outils d'analyse automatique.",
+            "en": "Customers report better budget organization with automatic analysis."
+          }
+        },
+        {
+          "percent": 90,
+          "text": {
+            "ar": "?????? ????? ???",
+            "fr": "Les utilisateurs profitent d'une visibilite complete sur leurs finances.",
+            "en": "Users gain full visibility to make smarter financial decisions."
+          }
+        }
+      ]
+    },
+    "comparisonModern": {
+      "modes": {
+        "minimal": {
+          "id": "comparison-modern"
+        },
+        "dark": {
+          "id": "comparison-modern"
+        },
+        "morocco-psychology": {
+          "id": "comparison-modern"
+        },
+        "facebook-ads": {
+          "id": "comparison-modern"
+        }
+      },
+      "title": {
+        "ar": "Salarify ????? ??????? ?????????? ??????",
+        "fr": "Salairy vs Les autres templates et apps",
+        "en": "Salairy vs Other Templates and Apps"
+      },
+      "headers": {
+        "left": "SALAIRY",
+        "right": "OTHERS"
+      },
+      "features": [
+        {
+          "label": {
+            "ar": "???? ?????? ???????",
+            "fr": "Salairy comprend tes habitudes financieres",
+            "en": "Understands your financial habits"
+          },
+          "ours": true,
+          "theirs": false
+        },
+        {
+          "label": {
+            "ar": "???? ???? ?????????",
+            "fr": "Concu pour etre simple, meme pour debutants",
+            "en": "Simple system even for beginners"
+          },
+          "ours": true,
+          "theirs": false
+        },
+        {
+          "label": {
+            "ar": "???? ???????? ?????",
+            "fr": "Resultats automatiques sans formules complexes",
+            "en": "Automatic results without complex formulas"
+          },
+          "ours": true,
+          "theirs": false
+        },
+        {
+          "label": {
+            "ar": "??? ??? ?????",
+            "fr": "Paiement unique",
+            "en": "One-time payment"
+          },
+          "ours": true,
+          "theirs": false
+        }
+      ]
+    },
+    "footerBlock": {
+      "modes": {
+        "minimal": {
+          "id": "footer"
+        },
+        "dark": {
+          "id": "footer"
+        },
+        "morocco-psychology": {
+          "id": "footer"
+        },
+        "facebook-ads": {
+          "id": "footer"
+        }
+      },
+      "title": {
+        "ar": "????? ????????",
+        "fr": "Abonnez-vous a nos e-mails",
+        "en": "Subscribe to our e-mails"
+      },
+      "placeholder": {
+        "ar": "?????? ??????????",
+        "fr": "Email",
+        "en": "Email"
+      },
+      "button": {
+        "ar": "?????",
+        "fr": "Inscrivez-vous",
+        "en": "Subscribe"
+      },
+      "languageLabel": {
+        "ar": "?????",
+        "fr": "Language",
+        "en": "Language"
+      }
+    },
+    "moroccanReviews": {
+      "modes": {
+        "minimal": {
+          "id": "moroccan-reviews"
+        },
+        "dark": {
+          "id": "moroccan-reviews"
+        },
+        "morocco-psychology": {
+          "id": "moroccan-reviews"
+        },
+        "facebook-ads": {
+          "id": "moroccan-reviews"
+        }
+      },
+      "title": {
+        "ar": "???? ?? ????? ??????",
+        "fr": "Avis Marocains",
+        "en": "Moroccan Reviews"
+      },
+      "subtitle": {
+        "ar": "????? ?????? ?? ??? ???? ? Salarify",
+        "fr": "Des retours reels de clients au Maroc",
+        "en": "Real feedback from customers in Morocco"
+      },
+      "items": [
+        {
+          "name": "Fatima Zahra",
+          "city": "Casablanca",
+          "image": "/avis/fatima-zahra.jpg",
+          "quote": {
+            "ar": "???? ????? ??????? ????? ??? ????.",
+            "fr": "Je gere mes depenses sans stress maintenant.",
+            "en": "I now manage my spending without stress."
+          }
+        },
+        {
+          "name": "Hafssa",
+          "city": "Rabat",
+          "image": "/avis/hafssa.jpg",
+          "quote": {
+            "ar": "??? ???? ??? ?????????.",
+            "fr": "Tres simple, meme pour debutants.",
+            "en": "Very easy, even for beginners."
+          }
+        },
+        {
+          "name": "Mohammed",
+          "city": "Marrakech",
+          "image": "/avis/Mohammed.jfif",
+          "quote": {
+            "ar": "?????? ????????? ??? ????? ????.",
+            "fr": "La clarte du budget a tout change pour moi.",
+            "en": "Budget clarity changed everything for me."
+          }
+        },
+        {
+          "name": "Salma",
+          "city": "Agadir",
+          "image": "/avis/salma.jpg",
+          "quote": {
+            "ar": "???? 49 ???? ??????.",
+            "fr": "Le meilleur achat a 49 DH.",
+            "en": "Best 49 DH purchase I made."
+          }
+        },
+        {
+          "name": "Salma DR",
+          "city": "Tanger",
+          "image": "/avis/salma-dr.jpg",
+          "quote": {
+            "ar": "?????? ????????? ?? ?????? ??????.",
+            "fr": "Je suis mon budget sur mobile tres facilement.",
+            "en": "I track my budget on mobile very easily."
+          }
+        }
+      ]
+    }
+  },
+  "adsOptimization": {
+    "stickyCTA": true,
+    "repeatCTASections": true,
+    "repeatModes": [
+      "facebook-ads"
+    ],
+    "stickyLabel": {
+      "minimal": "Commander",
+      "dark": "Activer",
+      "morocco-psychology": "طلب عبر WhatsApp",
+      "facebook-ads": "اطلب 49 DH"
+    },
+    "floatingCta": {
+      "minimal": "Pret a commencer ?",
+      "dark": "Passe en mode controle",
+      "morocco-psychology": "بدا اليوم بلا توتر",
+      "facebook-ads": "عرض 49 DH مازال خدام"
+    }
+  },
+  "i18n": {
+    "defaultLocale": "fr",
+    "locales": [
+      {
+        "code": "ar",
+        "label": "AR",
+        "icon": "/icone/ar.png"
+      },
+      {
+        "code": "fr",
+        "label": "FR",
+        "icon": "/icone/fr.png"
+      },
+      {
+        "code": "en",
+        "label": "EN",
+        "icon": "/icone/an.png"
+      }
+    ]
+  }
+}
