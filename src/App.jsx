@@ -2,11 +2,15 @@
 import landingData from "./data/landingData.json";
 import PromoStrip from "./components/PromoStrip";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 import StoreSection from "./components/StoreSection";
+import SocialProofSection from "./components/SocialProofSection";
 import MoroccanReviewsSection from "./components/MoroccanReviewsSection";
 import ShowcaseSection from "./components/ShowcaseSection";
 import StressStatsSection from "./components/StressStatsSection";
 import ComparisonModernSection from "./components/ComparisonModernSection";
+import CTASection from "./components/CTASection";
+import StickyWhatsApp, { ScrollTriggerCTA } from "./components/StickyWhatsApp";
 import Footer from "./components/Footer";
 import { getModeStyles, pickByMode } from "./components/theme";
 
@@ -16,6 +20,9 @@ function App() {
   const [locale, setLocale] = useState(landingData.i18n.defaultLocale);
 
   const storeSection = pickByMode(landingData.sections.store, mode);
+  const hero = pickByMode(landingData.sections.hero, mode);
+  const socialProof = pickByMode(landingData.sections.socialProof, mode);
+  const finalCta = pickByMode(landingData.sections.finalCTA, mode);
   const moroccanReviews = landingData.sections.moroccanReviews;
   const showcase = landingData.sections.showcase;
   const stressStats = landingData.sections.stressStats;
@@ -43,13 +50,39 @@ function App() {
           locale={locale}
         />
 
+        <Hero
+          brand={landingData.brand}
+          product={landingData.product}
+          data={hero}
+          styles={styles}
+          mode={mode}
+        />
+
         <ShowcaseSection section={showcase} locale={locale} styles={styles} />
+        <CTASection id="cta-middle" data={finalCta} product={landingData.product} brand={landingData.brand} styles={styles} />
+        <SocialProofSection data={socialProof} styles={styles} mode={mode} />
         <MoroccanReviewsSection section={moroccanReviews} locale={locale} styles={styles} />
         <StressStatsSection section={stressStats} locale={locale} styles={styles} />
         <ComparisonModernSection section={comparisonModern} locale={locale} styles={styles} />
+        <CTASection id={finalCta.id || "final-cta"} data={finalCta} product={landingData.product} brand={landingData.brand} styles={styles} />
       </main>
 
       <Footer block={footerBlock} locale={locale} locales={landingData.i18n.locales} />
+      <StickyWhatsApp
+        enabled={landingData.adsOptimization.stickyCTA}
+        label={landingData.adsOptimization.stickyLabel[mode]}
+        brand={landingData.brand}
+        message={finalCta.whatsappMessage}
+        styles={styles}
+      />
+      <ScrollTriggerCTA
+        enabled={landingData.adsOptimization.repeatCTASections}
+        text={landingData.adsOptimization.floatingCta[mode]}
+        button={finalCta.button}
+        brand={landingData.brand}
+        message={finalCta.whatsappMessage}
+        styles={styles}
+      />
     </div>
   );
 }

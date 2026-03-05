@@ -8,6 +8,12 @@ const StoreSection = ({ data, store, brand, product, styles, locale }) => {
   const [activeImage, setActiveImage] = useState(0);
   const currentMedia = template.media[activeImage] || template.media[0];
   const waUrl = buildWhatsAppUrl(brand.whatsappBaseUrl, getLocalizedText(template.whatsappMessage, locale));
+  const trustItems = [
+    getLocalizedText(template.taxLabel, locale),
+    getLocalizedText(template.vendor.badge, locale),
+    getLocalizedText(template.vendor.response, locale),
+    product.delivery
+  ];
   const prevImage = () => setActiveImage((prev) => (prev === 0 ? template.media.length - 1 : prev - 1));
   const nextImage = () => setActiveImage((prev) => (prev === template.media.length - 1 ? 0 : prev + 1));
 
@@ -19,14 +25,14 @@ const StoreSection = ({ data, store, brand, product, styles, locale }) => {
             <img
               src={currentMedia.image}
               alt={getLocalizedText(currentMedia.alt, locale)}
-              className="h-[360px] w-full rounded-2xl object-cover sm:h-[460px]"
+              className="h-[320px] w-full rounded-2xl bg-slate-50 object-contain p-2 sm:h-[460px] sm:object-cover sm:p-0"
             />
 
             <div className="mt-3 flex items-center gap-2">
               <button type="button" onClick={prevImage} className={`rounded-full p-1 ${styles.soft}`}>
                 <Icon name="chevron-left" className="h-4 w-4" />
               </button>
-              <div className="flex gap-2 overflow-x-auto">
+              <div className="flex gap-2 overflow-x-auto pb-1">
                 {template.media.map((item, idx) => (
                   <button
                     key={item.image}
@@ -36,7 +42,12 @@ const StoreSection = ({ data, store, brand, product, styles, locale }) => {
                       idx === activeImage ? "border-emerald-500" : "border-transparent"
                     }`}
                   >
-                    <img src={item.image} alt={getLocalizedText(item.alt, locale)} className="h-16 w-20 object-cover" loading="lazy" />
+                    <img
+                      src={item.image}
+                      alt={getLocalizedText(item.alt, locale)}
+                      className="h-14 w-16 object-cover sm:h-16 sm:w-20"
+                      loading="lazy"
+                    />
                   </button>
                 ))}
               </div>
@@ -54,13 +65,12 @@ const StoreSection = ({ data, store, brand, product, styles, locale }) => {
               <span className={`text-sm ${styles.muted}`}>-{template.discountPercent}%</span>
             </div>
 
-            <p className="mt-3 text-3xl font-bold">
+            <p className="mt-3 text-3xl font-extrabold">
               {formatPrice(template.price, product.currency)}
               <span className={`ml-2 text-xl line-through ${styles.muted}`}>{formatPrice(template.oldPrice, product.currency)}</span>
             </p>
 
-            <p className={`mt-1 text-sm ${styles.muted}`}>{getLocalizedText(template.taxLabel, locale)}</p>
-            <h3 className="mt-4 text-2xl font-semibold leading-tight">{getLocalizedText(template.title, locale)}</h3>
+            <h3 className="mt-4 text-2xl font-bold leading-tight">{getLocalizedText(template.title, locale)}</h3>
             <p className={`mt-2 text-sm ${styles.muted}`}>{getLocalizedText(template.subtitle, locale)}</p>
 
             <div className="mt-4 flex items-center gap-2 text-sm">
@@ -76,15 +86,22 @@ const StoreSection = ({ data, store, brand, product, styles, locale }) => {
               href={waUrl}
               target="_blank"
               rel="noreferrer"
-              className={`mt-5 inline-flex w-full items-center justify-center rounded-full px-5 py-3 text-sm font-semibold transition ${styles.primaryButton}`}
+              className={`mt-5 inline-flex w-full items-center justify-center gap-2 rounded-full px-5 py-4 text-base font-bold transition duration-200 hover:-translate-y-0.5 ${styles.primaryButton}`}
             >
+              <Icon name="whatsapp" className="h-5 w-5" />
               {getLocalizedText(template.cta, locale)}
             </a>
 
-            <p className={`mt-4 text-sm font-semibold ${styles.heading}`}>{getLocalizedText(template.vendor.badge, locale)}</p>
-            <p className={`text-sm ${styles.muted}`}>{getLocalizedText(template.vendor.response, locale)}</p>
-            <p className={`mt-2 text-xs ${styles.muted}`}>{getLocalizedText(template.urgency, locale)}</p>
+            <ul className="mt-4 grid gap-2 sm:grid-cols-2">
+              {trustItems.map((item) => (
+                <li key={item} className={`flex items-center gap-2 rounded-xl px-3 py-2 text-xs font-semibold ${styles.soft}`}>
+                  <Icon name="check" className="h-4 w-4 text-emerald-600" />
+                  {item}
+                </li>
+              ))}
+            </ul>
 
+            <p className={`mt-3 text-xs ${styles.muted}`}>{getLocalizedText(template.urgency, locale)}</p>
             <ul className="mt-4 space-y-2">
               {template.bullets.map((bullet) => (
                 <li key={bullet.icon + getLocalizedText(bullet.text, locale)} className="flex items-center gap-2 text-sm">

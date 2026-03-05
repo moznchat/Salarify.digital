@@ -4,7 +4,14 @@ import { getLocalizedText } from "../utils/format";
 const Navbar = ({ brand, styles, locale, locales, onLocaleChange }) => {
   return (
     <header className={`border-b ${styles.nav}`}>
-      <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+      <nav className="mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-center md:hidden">
+          <a href="#store">
+            <img src={brand.logo} alt={brand.name} className="h-14 w-auto object-contain" />
+          </a>
+        </div>
+
+        <div className="mt-2 flex items-center justify-between gap-3 md:mt-0 md:justify-between">
         <ul className="hidden items-center gap-5 text-sm md:flex">
           <li>
             <a href="#store" className={styles.muted}>
@@ -23,11 +30,11 @@ const Navbar = ({ brand, styles, locale, locales, onLocaleChange }) => {
           </li>
         </ul>
 
-        <a href="#store" className="absolute left-1/2 -translate-x-1/2">
+        <a href="#store" className="hidden md:block">
           <img src={brand.logo} alt={brand.name} className="h-14 w-auto object-contain sm:h-16" />
         </a>
 
-        <div className="ml-auto flex items-center gap-3">
+        <div className="mx-auto flex items-center gap-3 md:mx-0 md:ml-auto">
           <button type="button" className="text-slate-700">
             <Icon name="search" className="h-4 w-4" />
           </button>
@@ -53,6 +60,7 @@ const Navbar = ({ brand, styles, locale, locales, onLocaleChange }) => {
               </button>
             ))}
           </div>
+        </div>
         </div>
       </nav>
     </header>

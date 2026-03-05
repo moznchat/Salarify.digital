@@ -5,8 +5,8 @@
   "brand": {
     "name": "Salarify",
     "description": "Template simple pour gérer ton budget mensuel sans stress.",
-    "whatsappNumber": "212600000000",
-    "whatsappBaseUrl": "https://wa.me/212600000000",
+    "whatsappNumber": "212725240109",
+    "whatsappBaseUrl": "https://wa.me/212725240109",
     "email": "contact@salarify.ma",
     "copyright": "Salarify. Tous droits reserves.",
     "nav": {
@@ -191,7 +191,7 @@
       "id": "salarify-template-main",
       "title": {
         "ar": "مخطط الميزانية TDAH - Google Sheets",
-        "fr": "Planificateur de Budget TDAH - Google Sheets",
+        "fr": "Gerez votre budget facilement avec Excel & Google Sheets",
         "en": "TDAH Budget Planner - Google Sheets"
       },
       "subtitle": {
@@ -234,7 +234,7 @@
       },
       "cta": {
         "ar": "اطلب عبر واتساب",
-        "fr": "Commander via WhatsApp",
+        "fr": "Recevoir le modele maintenant",
         "en": "Order on WhatsApp"
       },
       "whatsappMessage": {
@@ -342,15 +342,15 @@
         "minimal": {
           "id": "hero",
           "eyebrow": "Template finance personnelle",
-          "headline": "Controle ton budget en 10 minutes par semaine",
-          "subheadline": "Salarify transforme Excel et Google Sheets en systeme simple pour suivre tes depenses et proteger ton salaire.",
+          "headline": "Vous vous demandez toujours ou est passe votre salaire ?",
+          "subheadline": "Gerez votre budget facilement avec Excel et Google Sheets, sans stress et en quelques minutes par semaine.",
           "benefits": [
-            "Configuration rapide, sans formules complexes",
+            "Suivi simple des depenses",
             "Compatible mobile et ordinateur",
-            "Visualise ou va chaque dirham"
+            "Paiement unique - acces a vie"
           ],
-          "primaryCta": "Je veux mon template",
-          "secondaryCta": "Voir ce que je recois",
+          "primaryCta": "Recevoir le modele maintenant",
+          "secondaryCta": "Telecharger mon modele de budget",
           "whatsappMessage": "Salam, je veux commander le template budget Salarify."
         },
         "dark": {
@@ -1132,9 +1132,9 @@
       "modes": {
         "minimal": {
           "id": "final-cta",
-          "headline": "Prends le controle de ton argent aujourd'hui",
-          "subheadline": "Commence avec Salarify et construis une routine budget durable.",
-          "button": "Commander maintenant",
+          "headline": "Commencez a controler votre argent aujourd'hui.",
+          "subheadline": "Pour seulement 49 DH.",
+          "button": "Recevoir le modele maintenant",
           "urgency": "Offre promotionnelle active pour une periode limitee.",
           "whatsappMessage": "Salam, je suis pret a acheter Salarify maintenant."
         },
@@ -1291,7 +1291,8 @@
         "fr": "Apres",
         "en": "After"
       },
-      "image": "/image/videoframe_3469.png"
+      "image": "/image/videoframe_3469.png",
+      "video": "/image/ADHD_video.mp4"
     },
     "stressStats": {
       "modes": {
@@ -1357,19 +1358,19 @@
       },
       "title": {
         "ar": "Salarify مقابل القوالب والتطبيقات الأخرى",
-        "fr": "Salairy vs Les autres templates et apps",
-        "en": "Salairy vs Other Templates and Apps"
+        "fr": "Salarify vs autres templates",
+        "en": "Salarify vs other templates"
       },
       "headers": {
-        "left": "SALAIRY",
-        "right": "OTHERS"
+        "left": "Salarify",
+        "right": "Autres"
       },
       "features": [
         {
           "label": {
             "ar": "كيفهم عاداتك المالية",
-            "fr": "Salairy comprend tes habitudes financieres",
-            "en": "Understands your financial habits"
+            "fr": "Facile pour debutants",
+            "en": "Beginner friendly"
           },
           "ours": true,
           "theirs": false
@@ -1377,8 +1378,8 @@
         {
           "label": {
             "ar": "مصمم باش يكون سهل حتى للمبتدئين",
-            "fr": "Concu pour etre simple, meme pour debutants",
-            "en": "Simple system even for beginners"
+            "fr": "Resultats automatiques",
+            "en": "Automatic results"
           },
           "ours": true,
           "theirs": false
@@ -1386,11 +1387,11 @@
         {
           "label": {
             "ar": "نتائج تلقائية بلا معادلات معقدة",
-            "fr": "Resultats automatiques sans formules complexes",
-            "en": "Automatic results without complex formulas"
+            "fr": "Compatible mobile",
+            "en": "Mobile friendly"
           },
           "ours": true,
-          "theirs": false
+          "theirs": true
         },
         {
           "label": {

@@ -10,7 +10,22 @@ const ShowcaseSection = ({ section, locale, styles }) => {
         </div>
       </div>
       <div>
-        <img src={section.image} alt={getLocalizedText(section.title, locale)} className="h-full w-full rounded-2xl object-cover" />
+        {section.video ? (
+          <video
+            className="mb-4 h-auto w-full rounded-2xl"
+            controls
+            autoPlay
+            playsInline
+            muted
+            loop
+            preload="metadata"
+            poster={section.image}
+          >
+            <source src={section.video} type="video/mp4" />
+          </video>
+        ) : (
+          <img src={section.image} alt={getLocalizedText(section.title, locale)} className="h-full w-full rounded-2xl object-cover" />
+        )}
       </div>
     </section>
   );
